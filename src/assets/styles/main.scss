@@ -19,15 +19,40 @@
                 display: block;
                 padding: 0.5rem 1rem;
                 text-decoration: none;
-                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-    
+                transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
             }
-            &.current_page_item{
+            &.current_page_item {
                 background-color: #0d6efd;
-                a{
+                a {
                     color: #fff;
                 }
             }
         }
+    }
+}
+
+.card-custom {
+    height: 550px;
+    background-color: "#FFFFFF";
+    overflow: "hidden";
+
+    &.inline-block {
+        height: 250px;
+    }
+
+    .card-img {
+        height: 250px;
+
+        img,
+        svg {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    h3 {
+        font-size: 1.25rem;
     }
 }

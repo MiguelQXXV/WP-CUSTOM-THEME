@@ -11,7 +11,7 @@
   if($page_settings){
     $section_title = array_pop($page_settings['section_title']);
     $section_subtitle = array_pop($page_settings['section_subtitle']);
-    $section_className = array_pop($page_settings['section_className']);
+    $section_className = array_pop($page_settings['section_class_name']);
     $section_id = array_pop($page_settings['section_id']);
   }
 
