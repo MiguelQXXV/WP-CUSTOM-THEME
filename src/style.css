@@ -1,0 +1,16 @@
+/*
+Theme Name: wp-blank
+Theme URI:
+Description: Blank WordPress theme for building custom front-end
+Version: 1.0
+Requires PHP
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Tags: wordpress, html, javascript, sass, css, postcss, webpack, babel
+Text Domain: wp-blank
+*/
+
+/*
+This CSS file is needed for WordPress to recognize the theme and display its info.
+Please use the ../src/assets/styles/main.scss as an entry point for your SASS code.
+*/
